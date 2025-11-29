@@ -21,3 +21,14 @@ h1, h2, h3, h4, h5 {
   display: block !important;
   margin: 0 auto !important;
 }
+
+/* Center the site title in the sidebar */
+#sidebar .site-title {
+  text-align: center !important;
+}
+
+/* Make tagline normal (no italic) */
+#sidebar .site-subtitle {
+  font-style: normal !important;
+  text-align: center !important;
+}
