@@ -10,7 +10,8 @@
       "Bash(rm -rf .jekyll-cache)",
       "Bash(bundle exec jekyll build --force)",
       "Bash(cat _site/index.html)",
-      "Bash(cat _site/assets/css/jekyll-theme-chirpy.css)"
+      "Bash(cat _site/assets/css/jekyll-theme-chirpy.css)",
+      "Bash(git add .)"
     ],
     "deny": [],
     "ask": []
