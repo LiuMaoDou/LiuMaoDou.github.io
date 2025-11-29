@@ -5,7 +5,12 @@
       "Bash(mkdir -p _sass/abstracts)",
       "Bash(bundle exec jekyll build)",
       "Bash(cat _site/assets/css/ubuntu-font.css)",
-      "Bash(cat _site/assets/css/style.css)"
+      "Bash(cat _site/assets/css/style.css)",
+      "Bash(rm -rf _site)",
+      "Bash(rm -rf .jekyll-cache)",
+      "Bash(bundle exec jekyll build --force)",
+      "Bash(cat _site/index.html)",
+      "Bash(cat _site/assets/css/jekyll-theme-chirpy.css)"
     ],
     "deny": [],
     "ask": []
