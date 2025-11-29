@@ -11,7 +11,11 @@
       "Bash(bundle exec jekyll build --force)",
       "Bash(cat _site/index.html)",
       "Bash(cat _site/assets/css/jekyll-theme-chirpy.css)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Ubuntu font and configure avatar\n\n- Configure Ubuntu font for English text with Microsoft Yahei fallback\n- Add custom CSS to override theme font settings  \n- Configure avatar.png in sidebar\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)",
+      "Bash(git add index.html)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nFix index.html front matter\n\n- Remove invalid comment from front matter that was preventing Jekyll processing\n- Site now renders correctly\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
