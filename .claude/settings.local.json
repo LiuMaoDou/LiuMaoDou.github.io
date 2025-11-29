@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle show jekyll-theme-chirpy)",
+      "Bash(mkdir -p _sass/abstracts)",
+      "Bash(bundle exec jekyll build)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
