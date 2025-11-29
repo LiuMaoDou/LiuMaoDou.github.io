@@ -15,3 +15,9 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Ubuntu', 'Microsoft Yahei', sans-serif !important;
 }
+
+/* Center the avatar in the sidebar */
+#sidebar #avatar {
+  display: block !important;
+  margin: 0 auto !important;
+}
