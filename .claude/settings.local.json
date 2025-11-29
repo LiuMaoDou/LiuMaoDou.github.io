@@ -3,7 +3,9 @@
     "allow": [
       "Bash(bundle show jekyll-theme-chirpy)",
       "Bash(mkdir -p _sass/abstracts)",
-      "Bash(bundle exec jekyll build)"
+      "Bash(bundle exec jekyll build)",
+      "Bash(cat _site/assets/css/ubuntu-font.css)",
+      "Bash(cat _site/assets/css/style.css)"
     ],
     "deny": [],
     "ask": []
