@@ -1,6 +1,7 @@
 ---
-title: "HCIA-Storage 笔记"
+title: "HCIA-Storage笔记"
 date: 2025-11-30
+categories: Network
 ---
 
 
