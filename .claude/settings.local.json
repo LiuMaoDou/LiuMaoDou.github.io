@@ -18,7 +18,9 @@
       "Bash(git commit -m \"$(cat <<''EOF''\nFix index.html front matter\n\n- Remove invalid comment from front matter that was preventing Jekyll processing\n- Site now renders correctly\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(find . -name \"*.html\" -type f ! -path \"./_site/*\" -exec grep -l \"profile-wrapper\" {} ;)",
       "Bash(git commit -m \"$(cat <<''EOF''\nCenter avatar in sidebar\n\n- Add CSS to center-align the avatar image in the sidebar\n- Avatar now displays in the center instead of left-aligned\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git commit -m \"$(cat <<''EOF''\nCenter title and normalize tagline formatting\n\n- Center-align the site title in the sidebar\n- Remove italic formatting from tagline (make it normal text)\n- Center-align tagline text\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nCenter title and normalize tagline formatting\n\n- Center-align the site title in the sidebar\n- Remove italic formatting from tagline (make it normal text)\n- Center-align tagline text\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push origin main)",
+      "Bash(bundle exec jekyll serve --watch --livereload)"
     ],
     "deny": [],
     "ask": []
