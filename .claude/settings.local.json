@@ -20,7 +20,8 @@
       "Bash(git commit -m \"$(cat <<''EOF''\nCenter avatar in sidebar\n\n- Add CSS to center-align the avatar image in the sidebar\n- Avatar now displays in the center instead of left-aligned\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git commit -m \"$(cat <<''EOF''\nCenter title and normalize tagline formatting\n\n- Center-align the site title in the sidebar\n- Remove italic formatting from tagline (make it normal text)\n- Center-align tagline text\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git push origin main)",
-      "Bash(bundle exec jekyll serve --watch --livereload)"
+      "Bash(bundle exec jekyll serve --watch --livereload)",
+      "Bash(cat /d/Code/Blog/LiuMaoDou.github.io/_config.yml)"
     ],
     "deny": [],
     "ask": []
