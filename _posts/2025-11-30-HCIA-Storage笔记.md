@@ -12,7 +12,7 @@ categories: Network
   - 结构化数据
   - 半结构化数据
   - 非结构化数据
-- 信息 = 数据 + 加工处理
+- **信息** = 数据 + 加工处理
 - 存储
   - 内置存储
   - 外置存储
@@ -23,7 +23,11 @@ categories: Network
 
 - 盘面，磁道（Track），柱面（Cylinder），扇区（Sector）
   -  **CHS (Cylinder, Head, Sector)** 寻址
-  - 硬盘容量=柱面数x磁头数x扇区数x扇区大小
+  -  $\text{硬盘容量} = \text{柱面数} \times \text{磁头数} \times \text{扇区数} \times \text{扇区大小}$
+
+
+
+![img](https://private-user-images.githubusercontent.com/65071754/520504644-11ef191b-4028-409a-a836-f350bcde1ca5.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQ1MTk4MTMsIm5iZiI6MTc2NDUxOTUxMywicGF0aCI6Ii82NTA3MTc1NC81MjA1MDQ2NDQtMTFlZjE5MWItNDAyOC00MDlhLWE4MzYtZjM1MGJjZGUxY2E1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTMwVDE2MTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNkNDg4NWEwZGUxZjg4ODIxMGFkODk2MTA1NDU0MzYxMzg0ZDE5N2U0ZGFkNTVmOWU4OTc5YTNmYzEwNzM0MmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.pTk0Z8YgKPIZmcQfY6RUPMRuRsmJFKorYFSFGb2sf6Y)
 
 
 
@@ -67,13 +71,7 @@ categories: Network
 
 
 
-## 公式推导与逻辑关系
-
-$E=mc^2$
-
-
-
-
+**公式推导与逻辑关系**
 
 这个公式的计算过程是一个逻辑上的**层层递进**：
 
