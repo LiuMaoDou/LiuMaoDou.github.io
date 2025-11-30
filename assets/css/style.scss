@@ -36,12 +36,13 @@ h1, h2, h3, h4, h5 {
   text-align: center !important;
 }
 
-/* Center the post titles */
+/* Center and make post titles bold */
 .card-title {
   text-align: center !important;
+  font-weight: 700 !important;
 }
 
-/* Make post titles bold */
-.post-title {
+/* Make all post titles bold */
+.post-title, article h1 {
   font-weight: 700 !important;
 }
