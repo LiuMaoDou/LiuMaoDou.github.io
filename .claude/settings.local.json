@@ -28,7 +28,9 @@
       "Bash(git commit -m \"$(cat <<''EOF''\nAdd favicon files\n\n- Move favicon files from _site to assets/favicons\n- Add android-chrome icons (192x192, 512x512)\n- Add apple-touch-icon.png\n- Add favicon (16x16, 32x32)\n- Add site.webmanifest manifest file\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(bundle exec jekyll build --verbose)",
       "Bash(gem list)",
-      "Bash(curl -s http://localhost:4000/posts/math-test/)"
+      "Bash(curl -s http://localhost:4000/posts/math-test/)",
+      "Bash(cat D:CodeBlogLiuMaoDou.github.io_config.yml)",
+      "Bash(curl -s http://localhost:4000/)"
     ],
     "deny": [],
     "ask": []
