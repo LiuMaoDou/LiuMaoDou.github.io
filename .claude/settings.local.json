@@ -35,7 +35,10 @@
       "Bash(gem info jekyll-theme-chirpy)",
       "Bash(curl -s http://localhost:4000/posts/my-first-post/)",
       "Bash(xargs ls -la)",
-      "Bash(curl -s http://localhost:4000/assets/js/data/mathjax.js)"
+      "Bash(curl -s http://localhost:4000/assets/js/data/mathjax.js)",
+      "Bash(curl -s http://localhost:4000/posts/chinese-math-test/)",
+      "Bash(pkill -f \"jekyll serve\")",
+      "Bash(curl -I http://localhost:4000/posts/math-test/)"
     ],
     "deny": [],
     "ask": []

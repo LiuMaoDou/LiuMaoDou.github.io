@@ -2,6 +2,7 @@
 title: "HCIA-Storage笔记"
 date: 2025-11-30
 categories: Network
+math: true
 ---
 
 
@@ -29,7 +30,9 @@ categories: Network
 
 ![Image](https://github.com/user-attachments/assets/11ef191b-4028-409a-a836-f350bcde1ca5)
 
-$硬盘容量 = 柱面数 \times 磁头数 \times 扇区数 \times 扇区大小$
+
+
+
 
 
 
