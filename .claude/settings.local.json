@@ -30,7 +30,12 @@
       "Bash(gem list)",
       "Bash(curl -s http://localhost:4000/posts/math-test/)",
       "Bash(cat D:CodeBlogLiuMaoDou.github.io_config.yml)",
-      "Bash(curl -s http://localhost:4000/)"
+      "Bash(curl -s http://localhost:4000/)",
+      "Bash(bundle exec jekyll clean)",
+      "Bash(gem info jekyll-theme-chirpy)",
+      "Bash(curl -s http://localhost:4000/posts/my-first-post/)",
+      "Bash(xargs ls -la)",
+      "Bash(curl -s http://localhost:4000/assets/js/data/mathjax.js)"
     ],
     "deny": [],
     "ask": []
