@@ -21,7 +21,11 @@
       "Bash(git commit -m \"$(cat <<''EOF''\nCenter title and normalize tagline formatting\n\n- Center-align the site title in the sidebar\n- Remove italic formatting from tagline (make it normal text)\n- Center-align tagline text\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git push origin main)",
       "Bash(bundle exec jekyll serve --watch --livereload)",
-      "Bash(cat /d/Code/Blog/LiuMaoDou.github.io/_config.yml)"
+      "Bash(cat /d/Code/Blog/LiuMaoDou.github.io/_config.yml)",
+      "Bash(cat .gitignore)",
+      "Bash(mkdir -p assets/favicons)",
+      "Bash(git add assets/favicons/)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd favicon files\n\n- Move favicon files from _site to assets/favicons\n- Add android-chrome icons (192x192, 512x512)\n- Add apple-touch-icon.png\n- Add favicon (16x16, 32x32)\n- Add site.webmanifest manifest file\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
