@@ -38,7 +38,9 @@
       "Bash(curl -s http://localhost:4000/assets/js/data/mathjax.js)",
       "Bash(curl -s http://localhost:4000/posts/chinese-math-test/)",
       "Bash(pkill -f \"jekyll serve\")",
-      "Bash(curl -I http://localhost:4000/posts/math-test/)"
+      "Bash(curl -I http://localhost:4000/posts/math-test/)",
+      "Bash(cat /d/Code/Blog/LiuMaoDou.github.io/index.html)",
+      "Bash(curl -s http://localhost:4000/index.html)"
     ],
     "deny": [],
     "ask": []
