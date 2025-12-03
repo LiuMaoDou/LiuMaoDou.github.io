@@ -46,3 +46,20 @@ h1, h2, h3, h4, h5 {
 .post-title, article h1 {
   font-weight: 700 !important;
 }
+
+/* Add subtle shadow to images */
+img {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Add shadow to images in posts */
+.post-content img {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Add shadow to avatar */
+#avatar {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15) !important;
+}
