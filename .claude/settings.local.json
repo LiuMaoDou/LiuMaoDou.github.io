@@ -3,7 +3,9 @@
     "allow": [
       "Bash(git add assets/img/favicons/favicon.ico assets/css/style.scss index.html)",
       "Bash(git add -A)",
-      "Bash(git reset .claude/settings.local.json)"
+      "Bash(git reset .claude/settings.local.json)",
+      "Bash(curl -I https://liumaodou.github.io/)",
+      "Bash(curl -s https://liumaodou.github.io/)"
     ],
     "deny": [],
     "ask": []
