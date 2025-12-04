@@ -12,8 +12,9 @@ body {
   font-family: 'Ubuntu', 'Microsoft Yahei', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', 'Microsoft Yahei', sans-serif !important;
+  font-weight: 700 !important;
 }
 
 /* Center the avatar in the sidebar */
@@ -43,7 +44,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Make all post titles bold */
-.post-title, article h1 {
+.post-title {
   font-weight: 700 !important;
 }
 
