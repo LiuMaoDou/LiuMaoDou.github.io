@@ -6,7 +6,13 @@
       "Bash(git reset .claude/settings.local.json)",
       "Bash(curl -I https://liumaodou.github.io/)",
       "Bash(curl -s https://liumaodou.github.io/)",
-      "Bash(bundle exec jekyll build)"
+      "Bash(bundle exec jekyll build)",
+      "Bash(cat .gitmodules)",
+      "Bash(bundle exec jekyll b --verbose)",
+      "Bash(git add assets/css/style.scss)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n让所有标题（H1-H6）显示为粗体\n\n- 修改 assets/css/style.scss\n- 为 h1-h6 添加 font-weight: 700 样式\n- 所有文章标题现在会自动显示为粗体\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push origin main)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n修复：只对文章内容标题加粗，避免影响首页\n\n- 将 font-weight: 700 限制在 .post-content 范围内\n- 首页标题保持原有样式\n- 文章内所有标题（h1-h6）仍会自动加粗\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
