@@ -14,7 +14,8 @@
       "Bash(git push origin main)",
       "Bash(git commit -m \"$(cat <<''EOF''\n修复：只对文章内容标题加粗，避免影响首页\n\n- 将 font-weight: 700 限制在 .post-content 范围内\n- 首页标题保持原有样式\n- 文章内所有标题（h1-h6）仍会自动加粗\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "WebFetch(domain:liumaodou.xyz)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n修复：文章标题粗体显示\n\n- 将CSS选择器从 `.post-content` 修改为 `.content`\n- 原因：页面实际使用的class是 `.content` 而不是 `.post-content`\n- 现在文章内容中的 h1-h6 标题将正确显示为粗体\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
