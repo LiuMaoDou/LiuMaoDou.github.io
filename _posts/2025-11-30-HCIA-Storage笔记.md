@@ -28,11 +28,7 @@ math: true
 
 
 
-![Image](https://github.com/user-attachments/assets/11ef191b-4028-409a-a836-f350bcde1ca5)
-
-
-
-
+![Image](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/11ef191b-4028-409a-a836-f350bcde1ca5)
 
 
 
