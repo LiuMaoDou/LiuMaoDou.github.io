@@ -7,7 +7,7 @@ math: true
 
 
 
-[Excalidraw](https://excalidraw.com/)，是一款开源的虚拟白板工具，以其独特的手绘草图风格为核心特色，支持多人实时协作与端到端加密。
+- [Excalidraw](https://excalidraw.com/)，是一款开源的虚拟白板工具，以其独特的手绘草图风格为核心特色，支持多人实时协作与端到端加密。
 
 ![github_product_showcase](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/github_product_showcase.png)
 
@@ -28,7 +28,7 @@ math: true
 
 
 
-## smart-draw安装
+## smart-draw安装与使用
 
 - 项目地址，[链接](https://github.com/liujuntao123/smart-draw)
 - 选择自己的文件夹，然后输入下面命令：
