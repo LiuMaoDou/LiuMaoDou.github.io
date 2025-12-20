@@ -60,7 +60,9 @@ pnpm dev
 
 ![image-20251221014354099](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/image-20251221014354099.png)
 
-- 接下来就可以用文字来画图了
+- 接下来就可以用文字来画图了，完成后即可保存
+
+
 
 第一版用DeepSeek V3.2生成的，效果很差
 
