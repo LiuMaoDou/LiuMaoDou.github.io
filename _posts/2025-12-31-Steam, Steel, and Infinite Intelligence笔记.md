@@ -60,7 +60,7 @@ The future is often hard to predict because it is always disguised as the past. 
 > **现实意义**
 > 这提醒我们:要理解当下正在发生什么,不能只依赖过去的经验。需要有意识地跳出"后视镜思维",去感知那些还未被旧框架捕捉的新质变化。
 >
-{: .prompt-info }
+{: .prompt-tip }
 
 ![The most popular form of AI today look like Google search of the past. To quote Marshall McLuhan: "we are always driving into the future via the rearview window."](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/3.jpeg)
 
