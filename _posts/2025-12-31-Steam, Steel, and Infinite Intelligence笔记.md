@@ -37,13 +37,33 @@ Since then, work has shifted from factories to offices. Today, I run a software 
 
 Early films often resembled stage plays, with a single camera pointed at the stage.
 
+> 早期的电影往往类似于舞台剧：只使用一台摄像机来拍摄舞台上的场景。
+
 The future is often hard to predict because it is always disguised as the past. Early phone calls were as brief as telegrams, and early films were like recorded stage plays. As Marshall McLuhan said: "We look at the present through a rear-view mirror. We march backwards into the future."
 
 > 未来往往难以预测，因为它总是以“过去”的形式伪装着自己。早期的电话通话内容非常简短（几乎与电报一样简短），早期的电影则类似于被录制下来的舞台剧。正如马歇尔·麦克卢汉所说：“我们是通过‘后视镜’来看待现在的；我们其实是在‘倒着前进’，走向未来的。”
 
+
+
+> information
+>
+> 我们理解新事物时,总是用旧的经验和框架去解读。就像开车时通过后视镜看到的是已经过去的景象,我们对"现在"的理解实际上建立在"过去"的基础上。
+>
+> **具体体现**
+> 技术革新的误读: 早期的汽车被称为"无马马车",电影被叫做"会动的照片",电视最初被当作"可视化的广播"。我们总是用旧媒介的概念去理解新媒介,而看不到新事物本身的革命性。
+> 媒介认知的滞后: 当印刷术出现时,人们还在用手抄本的思维模式去理解它;互联网早期,人们把网站当成"电子报纸"。我们习惯性地把新技术当作旧技术的延伸,而非全新的存在。
+> 文化惯性: 我们用农业时代的时间观理解工业社会,用工业时代的组织方式理解信息时代。每个时代的人都带着上一个时代的"眼镜"。
+>
+> 为什么"倒着前进"?
+> 因为我们的注意力集中在已知的东西上,而真正塑造未来的力量——新技术、新媒介带来的深层变革——往往在我们的"视野盲区"中悄然发生。等我们意识到时,变革已经完成了。
+>
+> **现实意义**
+> 这提醒我们:要理解当下正在发生什么,不能只依赖过去的经验。需要有意识地跳出"后视镜思维",去感知那些还未被旧框架捕捉的新质变化。
+> {: .prompt-info }
+
+
+
 ![The most popular form of AI today look like Google search of the past. To quote Marshall McLuhan: "we are always driving into the future via the rearview window."](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/3.jpeg)
-
-
 
 Today's most common form of AI still looks like the Google search of the past. To quote McLuhan again: "We look at the present through a rear-view mirror." Today, we see AI chatbots imitating the Google search box. We are deep in that uncomfortable transition period that occurs with every technological shift.
 
