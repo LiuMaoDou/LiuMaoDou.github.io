@@ -62,8 +62,6 @@ The future is often hard to predict because it is always disguised as the past. 
 >
 > {: .prompt-info }
 
-
-
 ![The most popular form of AI today look like Google search of the past. To quote Marshall McLuhan: "we are always driving into the future via the rearview window."](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/3.jpeg)
 
 Today's most common form of AI still looks like the Google search of the past. To quote McLuhan again: "We look at the present through a rear-view mirror." Today, we see AI chatbots imitating the Google search box. We are deep in that uncomfortable transition period that occurs with every technological shift.
