@@ -27,7 +27,8 @@
       "Bash(curl -L -s https://liumaodou.xyz)",
       "Bash(gh run list --limit 3 --json=status,conclusion,createdAt,event,workflowName)",
       "Bash(curl -H \"Authorization: token $GITHUB_TOKEN\" https://api.github.com/repos/LiuMaoDou/LiuMaoDou.github.io/actions/runs?per_page=3)",
-      "Bash(curl -s https://liumaodou.xyz/)"
+      "Bash(curl -s https://liumaodou.xyz/)",
+      "Bash(curl -s \"https://liumaodou.xyz/posts/EVPN%E7%AC%94%E8%AE%B0/\")"
     ],
     "deny": [],
     "ask": []
