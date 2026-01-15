@@ -65,6 +65,18 @@ npm update -g @anthropic-ai/claude-code
 # 3. 新对话会自动使用 CLAUDE.md 作为上下文
 ```
 
+可以在对话中，输入#来向CLAUDE.md中动态添加内容
+
+![img](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/v2-661d4a0a310e216323d76b4288b6c3ef_1440w.jpg)
+
+
+
+## 图片
+
+可以直接上传图片
+
+![img](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/v2-90a582d7a9e9b608a3e269135c59927d_1440w.jpg)
+
 
 
 ### Skill
@@ -73,3 +85,33 @@ npm update -g @anthropic-ai/claude-code
 2. 解决“私有业务逻辑”问题（教 AI 懂“行话”）
 3. 解决“上下文窗口限制”问题（按需获取信息）
 
+
+
+## Plan模式
+
+- 用来在编码开始之前，做整体的项目规划
+
+```bash
+# Enter Plan Mode
+shift + tab + tab
+
+# Ask for planning
+"Let's plan specs V3 → V4. Instead of writing single HTML files, 
+split into CSS, JS, HTML, and store these three files in unique directory"
+
+# Review the plan, then exit Plan Mode and execute
+shift + tab + tab  # Exit Plan Mode
+# Begin implementation
+```
+
+
+
+## Safe YOLO 模式
+
+在启动Claude的时候，执行下面的指令即可：
+
+```
+claude --dangerously-skip-permissions
+```
+
+执行这个之后，Claude 会**自动跳过所有权限确认**，不需要你手动点允许。这对于一些重复性任务十分方便。
