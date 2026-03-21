@@ -5,7 +5,7 @@ categories: AI
 math: true
 ---
 
-
+官网，[Claude](https://platform.claude.com/docs/zh-CN/home)
 
 ## 安装
 
@@ -57,7 +57,12 @@ npm update -g @anthropic-ai/claude-code
 ```bash
 # 初始化项目知识，然后开始新的对话
 /init
-/clear
+/clear — 硬重置
+/context — 上下文窗口用量
+/memory — 编辑 CLAUDE.md
+/resume — 继续过去的会话
+/btw — 不打断上下文的提问
+ /simplify - 执行代码审查
 
 # 执行流程：
 # 1. 生成 CLAUDE.md 文件，包含完整项目上下文
@@ -71,16 +76,26 @@ npm update -g @anthropic-ai/claude-code
 
 
 
-## 图片
+### 图片
 
 可以直接上传图片
 
 ![img](https://raw.githubusercontent.com/LiuMaoDou/Files/main/Pics/v2-90a582d7a9e9b608a3e269135c59927d_1440w.jpg)
 
+> 注意，上传的时候要等一会才能看到
+
+**On macOS**: Make sure you're using `Ctrl + V`, not `Cmd + V`
+
+**On Windows**:
+
+- Update to Claude Code version 1.0.93 or later
+- Try `Alt + V` instead of `Ctrl + V`
 
 
-### Skill
 
+### Skills
+
+官网，[链接](https://code.claude.com/docs/zh-CN/skills)
 1. 解决“外部世界隔离”问题（让 AI 长出“手”）
 2. 解决“私有业务逻辑”问题（教 AI 懂“行话”）
 3. 解决“上下文窗口限制”问题（按需获取信息）

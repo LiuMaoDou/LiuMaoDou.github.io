@@ -1,0 +1,7 @@
+/* Obsidian Theme 2026 */
+/* All new CSS updates and theme modifications will be accumulated here. */
+
+/* Adjust readable line width to 100% of the window */
+body {
+  --file-line-width: 90%;
+}

@@ -1,0 +1,18 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Ubuntu,微软雅黑",
+  "monospaceFontFamily": "Cascadia Code,LXGW WenKai",
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "custom-background",
+    "custom-rainbow-colors",
+    "extended-colorschemes",
+    "floating-search-bar",
+    "floating-status-bar",
+    "its-frontmatter",
+    "minimal-cards",
+    "notion-cards",
+    "obsidian_2026"
+  ]
+}
