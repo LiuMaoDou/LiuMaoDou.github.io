@@ -13,9 +13,38 @@ cc的hook提示 --> [链接](https://code.claude.com/docs/en/hooks-guide#macos)
 
 
 
+Claude Code 是终端界面，用标准终端快捷键：
+
+**光标移动**
+
+| 快捷键             | 效果           |
+| ------------------ | -------------- |
+| `Ctrl+A`           | 跳到行首       |
+| `Ctrl+E`           | 跳到行尾       |
+| `Ctrl+←` / `Alt+B` | 向左跳一个单词 |
+| `Ctrl+→` / `Alt+F` | 向右跳一个单词 |
+
+**删除**
+
+| 快捷键   | 效果                 |
+| -------- | -------------------- |
+| `Ctrl+U` | 删除光标前所有内容   |
+| `Ctrl+K` | 删除光标后所有内容   |
+| `Ctrl+W` | 删除前一个单词       |
+| `Ctrl+H` | 退格（同 Backspace） |
+
+**其他**
+
+| 快捷键    | 效果         |
+| --------- | ------------ |
+| `Ctrl+C`  | 取消当前输入 |
+| `↑` / `↓` | 翻历史记录   |
+
+> Claude Code 没有传统意义上的"全选"，因为是命令行输入框。如果要编辑较长内容，建议用 `Ctrl+U` 清空重新输入，或者直接在编辑器里写好再粘贴进去。
+
 ---
 
-官网，[Claude](https://platform.claude.com/docs/zh-CN/home)
+官网，[Claude](https://platform.claude.com/docs/zh-CN/home)，[Codex](https://developers.openai.com/codex)
 
 ## 安装
 
@@ -27,31 +56,21 @@ cc的hook提示 --> [链接](https://code.claude.com/docs/en/hooks-guide#macos)
 node --version
 npm --version
 
-# 安装Claude Code
+# 安装Claude Code/codex
 npm install -g @anthropic-ai/claude-code
+npm i -g @openai/codex
 
 # 检查Claude Code版本
 claude --version
 
-# 设置临时环境变量，个人电脑
-ANTHROPIC_BASE_URL="xx"
-ANTHROPIC_AUTH_TOKEN="xx"
-
-# 设置临时环境变量，Sealos：
-export ANTHROPIC_BASE_URL=http://xx
-export ANTHROPIC_AUTH_TOKEN=xx
-export ANTHROPIC_MODEL=claude-sonnet-4-5
-export ANTHROPIC_SMALL_FAST_MODEL=claude-sonnet-4-5
-
 # 使用npm更新
-npm update -g @anthropic-ai/claude-code
+claude install
+npm i -g @openai/codex@latest
 ```
 
 
 
 模型切换，软件推荐，[cc-switch](https://github.com/farion1231/cc-switch)
-
-国内支持的大模型：GLM（GLM-4.6），通义千问 (Qwen3-Coder-Plus)，DeepSeek（V3），豆包 (Doubao)，Kimi
 
 
 
