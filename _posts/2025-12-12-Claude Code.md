@@ -5,6 +5,80 @@ categories: AI
 math: true
 ---
 
+
+
+
+
+## 20260322
+
+Hook能力
+
+Claude Code hooks提示 --> [链接](https://code.claude.com/docs/en/hooks-guide#macos)
+
+~/.Claude/settings.json
+
+```json
+# macos
+"hooks": {
+  "Notification": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "claude-code-notification --sound Glass",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "afplay /System/Library/Sounds/Funk.aiff",
+          "timeout": 10
+        }
+      ]
+    }
+  ]
+},
+
+# windows
+"hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \\"[System.Media.SystemSounds]::Exclamation.Play()\\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \\"[console]::Beep(1000,500)\\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+```
+
+
+
+---
+
 官网，[Claude](https://platform.claude.com/docs/zh-CN/home)
 
 ## 安装
@@ -62,7 +136,7 @@ npm update -g @anthropic-ai/claude-code
 /memory — 编辑 CLAUDE.md
 /resume — 继续过去的会话
 /btw — 不打断上下文的提问
- /simplify - 执行代码审查
+/simplify - 执行代码审查
 
 # 执行流程：
 # 1. 生成 CLAUDE.md 文件，包含完整项目上下文
