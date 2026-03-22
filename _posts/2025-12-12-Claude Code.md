@@ -7,73 +7,9 @@ math: true
 
 
 
-
-
 ## 20260322
 
-Hook能力
-
-Claude Code hooks提示 --> [链接](https://code.claude.com/docs/en/hooks-guide#macos)
-
-~/.Claude/settings.json
-
-```json
-# macos
-"hooks": {
-  "Notification": [
-    {
-      "matcher": "",
-      "hooks": [
-        {
-          "type": "command",
-          "command": "claude-code-notification --sound Glass",
-          "timeout": 10
-        }
-      ]
-    }
-  ],
-  "Stop": [
-    {
-      "matcher": "",
-      "hooks": [
-        {
-          "type": "command",
-          "command": "afplay /System/Library/Sounds/Funk.aiff",
-          "timeout": 10
-        }
-      ]
-    }
-  ]
-},
-
-# windows
-"hooks": {
-    "Notification": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "powershell -NoProfile -Command \\"[System.Media.SystemSounds]::Exclamation.Play()\\"",
-            "timeout": 5
-          }
-        ]
-      }
-    ],
-    "Stop": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "powershell -NoProfile -Command \\"[console]::Beep(1000,500)\\"",
-            "timeout": 5
-          }
-        ]
-      }
-    ]
-  }
-```
+cc的hook提示 --> [链接](https://code.claude.com/docs/en/hooks-guide#macos)
 
 
 
